@@ -1,10 +1,11 @@
 import { Link, Outlet} from 'react-router-dom'
 import Navbar from '../componets/Navbar'
+import StyledNavbar from '../componets/StyledNavbar'
 
 function SharedLayout() {
   return (
     <>
-        <Navbar />
+        <StyledNavbar />
         <section className='section'>
             <Outlet />
         </section>
